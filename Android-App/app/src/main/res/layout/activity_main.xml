@@ -17,6 +17,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:background="?android:attr/windowBackground"
-        app:menu="@menu/bottom_navigation" />
+        app:itemIconTint="@drawable/color_tab"
+        app:itemTextColor="@drawable/color_tab"
+        app:itemBackground="@drawable/color_navigation"
+        app:menu="@menu/bottom_navigation"
+        />
 
 </RelativeLayout>
