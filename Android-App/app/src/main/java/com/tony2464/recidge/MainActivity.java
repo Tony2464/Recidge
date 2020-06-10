@@ -36,8 +36,11 @@ public class MainActivity extends AppCompatActivity {
                         case R.id.nav_recipes:
                             selectedFragment = new RecipesFragment();
                             break;
-                        case R.id.nav_add:
-                            selectedFragment = new AddFragment();
+                        case R.id.nav_fridge:
+                            selectedFragment = new FridgeFragment();
+                            break;
+                        case R.id.nav_ingredients:
+                            selectedFragment = new IngredientsFragment();
                             break;
                     }
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
