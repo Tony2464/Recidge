@@ -21,7 +21,7 @@ public class RecipesFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_recipes, container, false);
 
-        FloatingActionButton fab = view.findViewById(R.id.fab);
+        FloatingActionButton fab = view.findViewById(R.id.fab_recipes);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

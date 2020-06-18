@@ -18,9 +18,9 @@ public class FridgeFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_recipes, container, false);
+        View view = inflater.inflate(R.layout.fragment_fridge, container, false);
 
-        FloatingActionButton fab = view.findViewById(R.id.fab);
+        FloatingActionButton fab = view.findViewById(R.id.fab_fridge);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
